@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dev": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,11 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "express": "^5.2.1",
-    "mongoose": "^9.4.1"
+    "http-status": "^2.1.0",
+    "mongoose": "^9.4.1",
+    "nodemon": "^3.1.14",
+    "socketio": "^1.0.0"
   }
 }
